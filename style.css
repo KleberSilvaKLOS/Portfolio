@@ -87,6 +87,7 @@ body {
     color: #FFFFFF;
     margin-bottom: 20px;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 .description {
@@ -95,6 +96,8 @@ body {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 40px;
+    align-items: center;
+    margin: 40px auto;
 }
 
 /* Badges de Tecnologia */
@@ -379,4 +382,24 @@ body {
     .projects-grid, .services-grid {
         grid-template-columns: 1fr; /* Um card por linha no mobile */
     }
+}
+
+/* --- Animação de Scroll (Scroll Reveal) --- */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px); /* Começa 50px para baixo */
+    transition: all 0.8s ease-in-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0); /* Volta para a posição original */
+}
+
+/* --- Efeito 3D nos Cards --- */
+.service-card, .project-card {
+    /* Garante que a perspectiva funcione para o efeito 3D */
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform; /* Otimização de performance */
 }
