@@ -47,8 +47,7 @@ body {
     
     /* Padrão de pontinhos para simular textura de "ruído" (opcional, fica moderno) */
     background-image: 
-        radial-gradient(circle at center, rgba(15, 17, 21, 0.85) 0%, #0F1115 100%),
-        
+        radial-gradient(circle at center, rgba(15, 17, 21, 0.85) 0%, #0F1115 100%);
 }
 
 /* Animação lenta de Zoom e Movimento */
@@ -103,7 +102,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 3px solid #0b3cff; /* Cor rosa do círculo */
+    border: 3px solid #0b3cff; /* Cor azul do círculo */
     padding: 4px; /* Espaço entre a foto e a borda */
     object-fit: cover;
 }
@@ -131,7 +130,7 @@ body {
 }
 
 .greeting .highlight {
-    color: #2651ff; /* Rosa do nome */
+    color: #2651ff; /* Azul do nome */
     font-weight: bold;
 }
 
@@ -456,4 +455,17 @@ body {
     transform-style: preserve-3d;
     perspective: 1000px;
     will-change: transform; /* Otimização de performance */
+}
+
+.service-card, .project-card {
+    /* Fundo preto com 60% de opacidade */
+    background-color: rgba(22, 24, 29, 0.6); 
+    
+    /* Efeito de vidro (Glassmorphism) */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Borda mais sutil */
+    
+    /* ... mantenha o resto das propriedades (padding, border-radius, etc) ... */
 }
