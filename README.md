@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/KleberSilvaKLOS/nome-do-repo?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/KleberSilvaKLOS/nome-do-repo?style=for-the-badge)
 
-<img src="caminho-para-sua-print.png" alt="Preview do Portfólio" width="100%">
+[<img src="caminho-para-sua-print.png" alt="Preview do Portfólio" width="100%">](https://klebersilvaklos.github.io/Portfolio/)
 
 > Um portfólio moderno, responsivo e interativo desenvolvido para apresentar meus projetos e serviços como Desenvolvedor Fullstack.
 
@@ -53,8 +53,8 @@ Como este é um projeto estático, não há necessidade de instalação de depen
 ## 📬 Contato
 
 Kleber Lucas
-* **LinkedIn:** [Seu Link Aqui]
-* **Email:** [Seu Email Aqui]
+* **LinkedIn:** https://www.linkedin.com/in/kleber-lucas-481937283/
+* **Email:** Kleluca75@gmail.com
 
 ---
 
