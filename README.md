@@ -55,6 +55,11 @@ Como este é um projeto estático, não há necessidade de instalação de depen
 Kleber Lucas
 * **LinkedIn:** https://www.linkedin.com/in/kleber-lucas-481937283/
 * **Email:** Kleluca75@gmail.com
+---
+
+**Rocketseat**
+
+Projeto criado junto a Rocketseat, referente a uma atividade passada ao alunos.
 
 ---
 
